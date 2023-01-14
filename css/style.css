@@ -10,7 +10,6 @@
   --light: rgba(238, 238, 247, 1);
 }
 
-
 body {
   margin: 0;
   padding: 30px;
@@ -71,12 +70,12 @@ nav a :hover{
 
 .hero-banner {
   background-color : rgb(95, 123, 166)
-  background-image : url(../images/02-hero-banner.png), 
+  background-image: url ("../images/02-portfolio-2.jpg"),
   linear-gradient(180deg, var(--secondary) 0%,  
   var(--primary) 100%);
   background-size cover
   background-position  center
-  background-blend-mode : soft-light;
+  background-blend-mode: soft-light;
   min-height: 30vh;
   color: var(--light);
   display: flex;
