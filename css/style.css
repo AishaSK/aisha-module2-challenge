@@ -221,7 +221,7 @@ border-right:none;
 border: bottom 4px solid var(--primary)
 margin-bottom:20px;
 padding-bottom: 10px;
-text-align:left;
+text-align:left> ;
 
 
 
@@ -237,5 +237,4 @@ media screen and(max-width: 768px) {
   .contact address {
     flex-direction: column;
     align-items: flex-start;
-  }
-}
+  }}
