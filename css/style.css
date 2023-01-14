@@ -216,13 +216,12 @@ header nav {
   flex: 0 0 100%;
 }
 
-.page-section> h2 {
+.page-section> h2, 
 border-right:none;
 border: bottom 4px solid var(--primary)
-margin-bottom:20px;
-padding-bottom: 10px;
-text-align:left;
-}
+margin-bottom: 20px;
+padding-bottom : 10px;
+text-align:left
 
 
 media screen and(max-width: 768px) {
