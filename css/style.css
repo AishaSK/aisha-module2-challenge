@@ -32,7 +32,7 @@ p {
 }
 
 header {
-  padding: 15px 4px 20px 0px;
+  padding: 20px 6px 20px 4px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -69,20 +69,23 @@ nav a :hover{
   color: var(--primary);
 }
 
-.hero-banner{
-  background-color: rgba(81, 131, 212);
-  background-image: url(../images/02-hero-bg.jpg), linear-gradient(180deg, var(--secondary) 0%,  var(--primary) 100%);
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: soft-light;
+.hero-banner {
+  background-color : rgb(95, 123, 166)
+  background-image : url(../images/02-hero-banner.png), 
+  linear-gradient(180deg, var(--secondary) 0%,  
+  var(--primary) 100%);
+  background-size cover
+  background-position  center
+  background-blend-mode : soft-light;
   min-height: 30vh;
   color: var(--light);
   display: flex;
   padding: 2% 6%;
   justify-content: flex-end;
   align-items: flex-end;
-  text-align: right;
+  text-align:right;
 }
+
 
 .hero-banner div {
   flex: 0 0 90%;
@@ -93,7 +96,7 @@ nav a :hover{
   color: var(--tertiary);
   margin: 0;
   padding: 5px 10px;
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   line-height: 1.2;
   display: inline;
 }
@@ -156,9 +159,10 @@ nav a :hover{
 }
 
 
-flex-itemm:first-child{
+.flex-item:first-child{
   min-height: 400px;
-  flex-basis: 100%;}
+  flex-basis: 100%;
+}
 
 .flex item hover{
   background-color: rgba(28,29,33,1);}
@@ -193,18 +197,19 @@ flex-itemm:first-child{
 }
 
 
-media screen and(max-width: 1000px) 
+@media screen and ( max-width: 1000px) {
   header {
   padding: 0 10 10px 0;
-  justify-content:center; 
+  justify-content:center;
   text-align:center;
+}
 }
 
 header h1{
   width: 100% ;
   padding: 5px;
   margin-bottom: 10px;
-  font-size: 10vw;
+  font-size: 11vw;
 }
 
 header nav {
@@ -216,24 +221,31 @@ header nav {
   flex: 0 0 100%;
 }
 
-.page-section> h2, 
+.page-section> h2 {
 border-right:none;
-border: bottom 4px solid var(--primary)
+border: bottom 4px solid var(--primary);
 margin-bottom: 20px;
-padding-bottom : 10px;
+padding-bottom: 10px;
 text-align:left
+}
 
-
-media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
   .flex-item,
   .flex-item:first-child{
     flex-basis: 100%
   }
+
+  .flex-item:first-child {
+    min-height: 150px;
+  }
+
   .hero-banner{
     justify-content: center;
     text-align: center;
   }
+
   .contact address {
     flex-direction: column;
     align-items: flex-start;
-  }}
+  }
+}
