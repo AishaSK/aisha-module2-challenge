@@ -69,12 +69,10 @@ nav a :hover{
 }
 
 .hero-banner {
-  background-color : rgb(95, 123, 166)
-  background-image: url ("../images/02-portfolio-2.jpg"),
-  linear-gradient(180deg, var(--secondary) 0%,  
-  var(--primary) 100%);
-  background-size cover
-  background-position  center
+  background-color : rgb(95, 123, 166);
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
   background-blend-mode: soft-light;
   min-height: 30vh;
   color: var(--light);
